@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "homepages",
+  "info": {
+    "name": "homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "bottomButtonText": {
+      "type": "string"
+    },
+    "bottomButtonLink": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "bottomText": {
+      "type": "richtext"
+    }
+  }
+}

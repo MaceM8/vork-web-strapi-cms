@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "People"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "about": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "people"
+}

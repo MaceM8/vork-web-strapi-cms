@@ -1,0 +1,37 @@
+{
+  "name": "vork-web-strapi-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application for Vork web",
+  "license": "MIT",
+  "scripts": {
+    "develop": "rm -rf .cache && strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "knex": "^0.19.5",
+    "pg": "^7.18.1",
+    "sqlite3": "latest",
+    "strapi": "3.0.0-beta.18.6",
+    "strapi-admin": "3.0.0-beta.18.6",
+    "strapi-connector-bookshelf": "3.0.0-beta.18.6",
+    "strapi-plugin-content-manager": "3.0.0-beta.18.6",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.18.6",
+    "strapi-plugin-email": "3.0.0-beta.18.6",
+    "strapi-plugin-upload": "3.0.0-beta.18.6",
+    "strapi-plugin-users-permissions": "3.0.0-beta.18.6",
+    "strapi-provider-upload-aws-s3": "^3.0.0-beta.18.7",
+    "strapi-utils": "3.0.0-beta.18.6"
+  },
+  "author": {
+    "name": "Martin Machacek"
+  },
+  "strapi": {
+    "uuid": "ed030c6c-faa1-4291-88f7-1aa490b46243"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}

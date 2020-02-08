@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "logos",
+  "info": {
+    "name": "Logo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Alt": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "claim": {
+      "type": "string"
+    }
+  }
+}

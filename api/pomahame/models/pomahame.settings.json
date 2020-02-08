@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "pomahames",
+  "info": {
+    "name": "Pomahame"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "simpleBoxSectionHeading": {
+      "type": "string"
+    },
+    "simple_cards": {
+      "collection": "simple-card",
+      "via": "pomahame"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "user_contact": {
+      "model": "user-contacts"
+    }
+  }
+}

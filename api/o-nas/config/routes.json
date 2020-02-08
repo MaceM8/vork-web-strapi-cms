@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/o-nas",
+      "handler": "o-nas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/o-nas/count",
+      "handler": "o-nas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/o-nas/:id",
+      "handler": "o-nas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/o-nas",
+      "handler": "o-nas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/o-nas/:id",
+      "handler": "o-nas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/o-nas/:id",
+      "handler": "o-nas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "simple_cards",
+  "info": {
+    "name": "SimpleCard"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "pomahame": {
+      "via": "simple_cards",
+      "model": "pomahame"
+    },
+    "o_na": {
+      "via": "simple_cards",
+      "model": "o-nas"
+    }
+  }
+}

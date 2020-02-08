@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/user-contacts",
+      "handler": "user-contacts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/user-contacts/count",
+      "handler": "user-contacts.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/user-contacts/:id",
+      "handler": "user-contacts.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/user-contacts",
+      "handler": "user-contacts.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/user-contacts/:id",
+      "handler": "user-contacts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/user-contacts/:id",
+      "handler": "user-contacts.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

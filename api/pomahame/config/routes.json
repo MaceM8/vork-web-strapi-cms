@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pomahames",
+      "handler": "pomahame.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pomahames/count",
+      "handler": "pomahame.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pomahames/:id",
+      "handler": "pomahame.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pomahames",
+      "handler": "pomahame.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pomahames/:id",
+      "handler": "pomahame.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pomahames/:id",
+      "handler": "pomahame.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

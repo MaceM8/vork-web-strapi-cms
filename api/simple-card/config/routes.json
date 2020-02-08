@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/simple-cards",
+      "handler": "simple-card.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/simple-cards/count",
+      "handler": "simple-card.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/simple-cards/:id",
+      "handler": "simple-card.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/simple-cards",
+      "handler": "simple-card.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/simple-cards/:id",
+      "handler": "simple-card.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/simple-cards/:id",
+      "handler": "simple-card.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

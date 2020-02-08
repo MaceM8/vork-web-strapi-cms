@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kontakts",
+      "handler": "kontakt.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kontakts/count",
+      "handler": "kontakt.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kontakts/:id",
+      "handler": "kontakt.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kontakts",
+      "handler": "kontakt.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kontakts/:id",
+      "handler": "kontakt.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kontakts/:id",
+      "handler": "kontakt.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

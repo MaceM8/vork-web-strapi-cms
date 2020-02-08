@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "Kontakt"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "smallText": {
+      "type": "richtext"
+    },
+    "user_contact": {
+      "model": "user-contacts"
+    }
+  },
+  "connection": "default",
+  "collectionName": "kontakts"
+}

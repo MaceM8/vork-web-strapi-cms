@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "o_nas",
+  "info": {
+    "name": "O Nás"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "ThisIsUsTitle": {
+      "type": "string"
+    },
+    "whereCanYouFindUsTitle": {
+      "type": "string"
+    },
+    "whereCanYouFindUsText": {
+      "type": "richtext"
+    },
+    "simple_cards": {
+      "collection": "simple-card",
+      "via": "o_na"
+    },
+    "user_contact": {
+      "model": "user-contacts"
+    }
+  }
+}
